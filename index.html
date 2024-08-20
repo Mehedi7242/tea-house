@@ -2,7 +2,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tea House</title>
+    <!-- tailwind cdm -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -14,10 +15,51 @@
             }
           }
         }
-      </script>
+    </script>
+    <!-- googole font cdm -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- font awsome cdm -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+
 
 </head>
+
 <body>
-    
+    <!-- main content -->
+    <main class="max-w-screen-xl mx-auto sm:px-4 md:px-8 lg:px-24 border-2  bg-stone-50 border-red-700">
+        <header class="py-12">
+            <!-- container -->
+            <div class="flex">
+                <!-- text-content -->
+                <div>
+                    <h2 class="text-4xl lg:text-7xl font-extrabold">It's good tea time at The Tea House</h2>
+                    <br>
+                    <p class="w-10/12 text-gray-500">
+                        Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.
+                    </p>
+                    <br>
+                    <button class="px-5 py-3 bg-gradient-to-r from-orange-500 to-red-500 text-white font-bold rounded-xl">Explore More</button>
+                </div>
+
+                <!-- image-content -->
+                <div class="">
+                    <img class="relative" src="images/banner.png" alt="">
+                    <!-- image rating content -->
+                    <div class="absolute lg:top-64 md:top-60 flex bg-white shadow-lg shadow-stone-200/50 rounded-lg py-3">
+
+                        <i class="fa-solid fa-star text-yellow-400 text-2xl my-auto mx-4 "></i>
+                        <div>
+                            <h4>Explore More</h4>
+                            <p>Trust Pilot Ratings</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </header>
+    </main>
 </body>
 </html>
